@@ -1,0 +1,13 @@
+{
+  "name": "minisocial",
+  "version": "1.0.0",
+  "engines": { "node": ">=22.5" },
+  "description": "Mini social media app: profiles, posts, comments, likes, follows",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
